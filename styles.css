@@ -13,7 +13,9 @@
     color: #edf0f1;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    font-size: large;
+    font-size: x-large;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .luis-camus:hover {
@@ -30,11 +32,12 @@ li, a, button {
     font-size: 19px;
     color: #edf0f1;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
     
@@ -76,3 +79,5 @@ button:hover{
     border: none;
     border-radius: 50px;
 }
+
+/* End of header and nav */
