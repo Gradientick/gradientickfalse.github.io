@@ -5,22 +5,29 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    
+    
 }
 /* Header and Nav */
 .luis-camus {
     font-family: 'Oswald', sans-serif;
-    color: #edf0f1;
+    color: #CBE4DE;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size: x-large;
     margin-right: auto;
+    margin-left: 10%;
     margin-bottom: 20px;
+    display: inline-flex
+    
+    
+    
+    
 }
 
 .luis-camus:hover {
     
-    color:coral;  
+    font-size: xx-large; 
 }
 
 
@@ -39,9 +46,11 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 5px 2% 0% 2%;
+    background-color: #24252A;
     
 }
+
 
 .nav-buttons {
     list-style: none;
@@ -68,6 +77,7 @@ button {
     border-radius: 50px;
     transition: all 0.3s ease 0s;
     font-size: 22px;
+    background-color: #0E8388;
     
     
 }
@@ -75,9 +85,15 @@ button {
 button:hover{
     padding: 9px 25px;
     cursor: pointer;
-    background-color: #0088a9;
+    background-color: #0E8388;
     border: none;
     border-radius: 50px;
 }
 
+body {
+    background-color: #2E4F4F;
+}
+
 /* End of header and nav */
+
+/* main section */
