@@ -18,7 +18,8 @@
     margin-right: auto;
     margin-left: 5%;
     margin-bottom: 20px;
-    display: inline-flex
+    display: inline-flex;
+    
     
     
     
@@ -28,6 +29,7 @@
 .luis-camus:hover {
     
     font-size: xx-large; 
+    color: #865DFF;
 }
 
 
@@ -93,7 +95,9 @@ button:hover{
 
 body {
     background-color: #24252A;
+    
 }
+
 
 /* End of header and nav */
 
@@ -109,7 +113,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #24252A;
+    background-color: #2E4F4F;
     
     
     
@@ -119,13 +123,19 @@ body {
     width: fit-content;
     height: auto;
     clip-path: circle();
-    scale: 120%;
-    transition: all ease 0.3s ease 0s;
+    scale: 150%;
+    background-color: #CBE4DE;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    left: 20px;
+    
+    
 
 }
 
 .dp:hover {
-    box-shadow: 0px 12px 25px 11px rgba(0, 0, 0, 0.55);
+    
+    background-color: #865DFF;
 
 }
 
@@ -134,48 +144,115 @@ body {
    
     display: flex;
     justify-content: center;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 .quote {
     font-size: xx-large;
     margin-bottom: 5px;
     transition: all 0.3s ease 0s;
-
+    scale: 110%;
     font-family: 'Oswald', sans-serif;
     font-size: 45px;
     color: #CBE4DE;
+    position: relative;
+    left: 100px;
+
 }
 
 .quote:hover {
-    color: #0E8388;
+    color: #865DFF;
 }
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+    top: 200px;
+    left: 10px;
+}
+
+.facebook, .instagram, .github {
+    color: white;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.instagram:hover {
+    color:#865DFF;
+}
+.facebook:hover {
+    color:#865DFF;
+}
+.github:hover {
+    color:#865DFF;
+}
+
+
+
+
+
 /* end of hero */
 
 
 /* section */
 .section-container {
-    margin: 0;
-    padding: 0;
-    border: 5px solid red;
+    background-color: #24252A;
+    height: auto;
+    max-height: max-content;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
 }
 
-.title-section {
-    width: 100px;
-    border: 5px solid green;
-    background-color: red;
+.section-container > .title-section {
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    flex: 1;
+    color: #CBE4DE;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 1px;  
 }
 
-.title-section {
-    width: max-content;
-    border: 5px solid green;
-    background-color: red;
+.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(images/heading\ background.JPG);
+    background-size: contain;
+    padding: 70px 40px;
+    margin: 0px 50px;
+    margin-bottom: 50px;
+    margin-top: 70px;
 }
 
-.content {
-        width: 100px;
-        border: 5px solid green;
-        background-color: red;
+.project1, .project2 {
+    width: 600px;
+    height: 300px;
+    background-color: rgba(83, 83, 83, 0.64);
+}
+
+.project1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project1-link {
+   scale: 150%;
+   margin-top: 60px;
+   margin-bottom: 10%;
+    
+}
+
+.project2-link {
+    scale: 150%;
+    margin-left: 105px;
+   margin-top: 60px;
+   margin-bottom: 10%;
 }
