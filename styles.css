@@ -18,10 +18,13 @@ html {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size: x-large;
-    margin-right: auto;
-    margin-left: 5%;
-    margin-bottom: 20px;
     display: inline-flex;
+    margin-right: auto;
+    margin-left: 7%;
+    margin-bottom: 20px;
+
+    position: relative;
+    top: 5px;
     
     
 
@@ -44,18 +47,19 @@ li, a, button {
     font-size: 19px;
     color: #edf0f1;
     text-decoration: none;
-    margin-right: 20px;
 }
 
+
 header {
+    width: 100%;
+    height:100px;
+    background-color: rgb(36, 37, 42, 0.95);
+    padding-right: 2%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    padding: 5px 2% 0% 2%;
-    background-color: #24252A;
-    width: 100%;
     position: fixed;
     z-index: 12;
+    align-items: center;
     
     
 }
@@ -68,7 +72,7 @@ header {
 
 .nav-buttons li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 30px;
 }
 
 .nav-buttons  li a {
@@ -98,16 +102,13 @@ button {
     transition: all 0.3s ease 0s;
     font-size: 22px;
     background-color: #0E8388;
-    
+    cursor: pointer;
     
 }
 
 button:hover{
     padding: 9px 25px;
-    cursor: pointer;
-    background-color: #0E8388;
-    border: none;
-    border-radius: 50px;
+    
 }
 
 body {
@@ -122,11 +123,8 @@ body {
 
 .hero {
     width: 100%;
-    height: 30%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    padding-bottom:4%;
-    padding: 15% 5%;
+    height: auto;
+    padding: 12% 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -143,8 +141,7 @@ body {
     scale: 130%;
     background-color: #CBE4DE;
     transition: all 0.3s ease 0s;
-    position: relative;
-    left: 20px;
+    
     
     
 
@@ -184,18 +181,20 @@ body {
 
 .social {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     list-style: none;
     position: relative;
-    top: 200px;
-    left: 10px;
+    top: 180px;
+    
+    
 }
+
+
 
 .facebook, .instagram, .github {
     color: white;
     transition: all 0.3s ease 0s;
     cursor: pointer;
+    margin: 0px 12px;
 }
 
 .instagram:hover {
@@ -229,13 +228,19 @@ body {
 .section-container > .title-section {
     font-family: 'Oswald', sans-serif;
     font-size: 80px;
-    flex: 1;
     color: #CBE4DE;
     text-align: center;
     padding: 10px;
     padding-bottom: 1px;  
+    transition: all 0.3s ease 0s;;
+    position: relative;
+    top: 24px;
 }
 
+.title-section:hover{
+    color:#865DFF;
+}
+    
 .project-container {
     display: flex;
     flex-direction: row;
