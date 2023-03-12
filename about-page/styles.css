@@ -11,6 +11,9 @@ html {
     
 }
 
+body {
+    background-color: #0A0C09;
+}
 /* Navigation Bar */
 
 .navbar {
@@ -20,6 +23,7 @@ html {
     padding-right: 2%;
     display: flex;
     justify-content: flex-end;
+    position: fixed;
     z-index: 12;
     align-items: center;
 }
@@ -95,4 +99,29 @@ button:hover{
 
 #about:hover {
     color: #0E8388;
+}
+
+/* Title */
+.title-container {
+    width: 100%;
+    /* background-color: red; */
+    height: 650px;
+    position: relative;
+    top: 100px;
+    background-image: url(images/pexels-j) ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.aboutme {
+    font-family: 'Oswald', sans-serif;
+    font-size: 140px;
+    color: #edf0f1;
+    padding-left: 200px;
+    
+
+    /* display: flex; */
+
 }

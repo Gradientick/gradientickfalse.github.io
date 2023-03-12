@@ -129,7 +129,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #2E4F4F;
+    /* background-color: #2E4F4F; */
+    background-image: url(images/pexels-jéshoots-234527.jpg);
+    background-size: 100%;
+    background-position: 5px 2px;
     
     
     
